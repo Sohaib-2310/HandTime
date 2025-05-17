@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+/* header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+} */
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+header .head .logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+header .head .logo a {
+    text-decoration: none;
+    color: black;
+}
+
+header .head .navbar {
+    text-transform: uppercase;
+}
+
+header .head .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .head .navbar ul li {
+    list-style: none;
+}
+
+header .head .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 7px 25px;
+}
+
+header .head .navbar ul li a:hover,
+.active {
+    background-color: #8019c8;
+    color: white !important;
+    border-radius: 6px;
+}
+
+header .head .user-option-area ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+header .head .user-option-area ul li {
+    list-style: none;
+}
+
+header .head .user-option-area ul li a {
+    text-decoration: none;
+    color: #8019c8;
+    padding-right: 15px;
+    font-size: 0.8rem;
+}
+
+/* End Header Section */
+
+/* Home Page Main Section */
+.main-section {
+    background: url("../images/slider-bg.jpg");
+    height: calc(100vh - 75px);
+    color: white;
+}
+
+.main-section-text {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 50%;
+}
+
+.main-section-heading {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.main-section-paragraph {
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.main-section-btn {
+    margin-top: 30px;
+}
+
+.main-section-btn .btn1 {
+    background-color: #19c880;
+    border: none;
+    padding: 10px;
+    margin-right: 4px;
+}
+
+.main-section-btn .btn1:hover {
+    background-color: #04844e;
+}
+
+.main-section-btn .btn2 {
+    background-color: #8019c8;
+    border: none;
+    padding: 10px;
+}
+
+.main-section-btn .btn2:hover {
+    background-color: #6104a4;
+}
+
+.main-section-btn button a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 0px 30px;
+    color: white;
+}
+
+/* End Home Page Main Section */
+
+/* Home Page Services Section */
+.container-services-section {
+    background-color: #f8f8f8;
+    display: flex;
+}
+
+.container-services-section .box {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.container-services-section .box .box-img img {
+    height: 60px;
+}
+
+.container-services-section .box .box-details {
+    margin-top: 10px;
+}
+
+.container-services-section .box .box-details p {
+    margin-top: 10px;
+}
+
+/* End Home Page Services Section */
+
+/* About Section */
+.container-about-section {
+    height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
+}
+
+.about-section-img {
+    padding: 0px 30px;
+    display: flex;
+}
+
+.about-section-img img {
+    height: 320px;
+    margin-right: 20px;
+    background-color: #f6f6f6;
+}
+
+.about-section-img .img1 {
+    padding-bottom: 75px;
+    position: relative;
+    top: -40px;
+}
+
+.about-section-img .img2 {
+    padding-top: 75px;
+    position: relative;
+    top: 40px;
+}
+
+.about-section-details-box {
+    padding-top: 170px;
+    padding-right: 100px;
+
+}
+
+.about-section-details-box h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.about-section-details-box .details-box-btn {
+    margin-top: 50px;
+    background-color: #8019c8;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+/*  End About Section */
+
+/* Product Section */
+.product-section {
+    height: calc(100vh - 75px);
+    background-color: #f6f6f6;
+    margin: 45px 0px;
+}
+
+.product-section-heading h1 {
+    background-color: #19c880;
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.product-section-watches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.product-section-watches .box .box-content {
+    background-color: white;
+    width: 360px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.box .box-content img {
+    height: 180px;
+    margin: 40px 0px;
+}
+
+.box .box-content .detail-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.8rem;
+    padding: 0px 15px;
+}
+
+.box .box-content .detail-area h4 {
+    font-weight: normal;
+}
+
+.box .box-content .detail-area p {
+    font-size: 1.3rem;
+}
+
+.box .box-content .detail-area p {
+    font-size: 1.3rem;
+}
+
+.box .box-content .detail-area .like .stars {
+    color: #e2ba1b;
+    font-size: 14px;
+}
+
+.box .box-btn {
+    text-align: center;
+}
+
+.box .box-btn button {
+    border: none;
+    margin-top: 45px;
+}
+
+.box .box-btn a {
+    background-color: #8019c8;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 13px 32px;
+    border-radius: 5px;
+
+}
+
+.box .box-btn a:hover {
+    background-color: #6104a4;
+}
+
+/* End Product Section */
+
+/* Conatact Us Section */
+.contact-section {
+    height: calc(100vh - 75px);
+}
+
+.contact-section h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 75px;
+    padding: 50px 100px 5px 100px;
+}
+
+.contact-section form input {
+    display: block;
+    width: 40%;
+    height: 50px;
+    font-size: 1rem;
+    margin: 25px 100px;
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contact-section form .msg {
+    padding: 60px 10px;
+}
+
+.contact-section form button {
+    background-color: #8019c8;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0px 100px;
+    padding: 14px 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #6104a4;
+}
+
+/* End Conatact Us Section */
+
+/* Testimonial Section */
+.testimonial-section {
+    height: 100vh;
+    position: relative;
+}
+
+.container-testimonial-section .heading {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 90px 0px 50px 0px;
+}
+
+.container-testimonial-section .img img {
+    height: 128px;
+    width: 128px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    border-radius: 100%;
+    border: 5px solid #19c880;
+}
+
+.container-testimonial-section .detail-box {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    width: 65%;
+    margin: auto;
+    margin-left: 260px;
+    padding: 45px 45px 60px 90px;
+}
+
+.container-testimonial-section .detail-box .client-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #8019c8;
+}
+
+.container-testimonial-section .detail-box .client-info h6 {
+    color: #19c880;
+    font-weight: normal;
+}
+
+.container-testimonial-section .detail-box .client-info i {
+    font-size: 1.7rem;
+}
+
+.container-testimonial-section .detail-box p {
+    margin-top: 30px;
+}
+
+/* End Testimonial Section */
+
+/* Footer Section */
+.footer-section {
+    height: 100vh;
+}
+
+.container-footer-section {
+    padding-top: 100px;
+}
+
+.container-footer-section .upper {
+    background-color: #0f1521;
+    color: white;
+    height: 73vh;
+}
+
+.upper .heading {
+    width: 68%;
+    margin: auto;
+    padding: 75px 0px 20px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border-bottom: 1px solid white;
+}
+
+.upper .row {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.upper .row h1 {
+    font-weight: normal;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.upper .row .row1 {
+    width: 230px;
+}
+
+.upper .row .row1 ul li {
+    display: flex;
+    margin: 0px 5px 25px 5px;
+
+}
+
+.upper .row .row1 ul li i {
+    font-size: 1.2rem;
+    padding-right: 15px;
+}
+
+.upper .row .row2 {
+    width: 230px;
+}
+
+.upper .row .row2 p {
+    line-height: 25px;
+}
+
+.upper .row .row3 {
+    width: 230px;
+}
+
+.upper .row .row3 .image {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    gap: 5px;
+}
+
+.image div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.upper .row .row3 .image img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.upper .row .row4 {
+    width: 250px;
+}
+
+.upper .row .row4 form input {
+    display: block;
+    width: 260px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.upper .row .row4 form button {
+    background-color: #8019c8;
+    border: none;
+    color: white;
+    margin: 15px 0px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.upper .row .row4 form button:hover {
+    background-color: #6104a4;
+}
+
+.upper .row .row4 .icons {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.upper .row .row4 .icons i {
+    padding-right: 30px;
+}
+
+.lower {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* End Footer Section */
